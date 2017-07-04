@@ -1,10 +1,49 @@
+ul.nav.navbar-nav{
+  width:960px;
+  margin-left:121px;
+}/* forcing the grid on the nav */
+
+h1#sitename.text-center.bg-primary{
+  font-size:50px;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top{
+  font-size:17px;
+}
+
+font-family: 'Arimo', sans-serif;html{
+}
+
+body{
+  font-family:'Arimo', sans-serif;
+}/* inc the chosen font */
+
+div{
+  direction:rtl;
+}/* forcing rtl */
+
+div#head{
+  background-image:url(../../assets/img/master47_image014.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  width:960px;
+  margin:auto;
+  padding-top:190px;
+  height:280px;
+}/* making the logo appear, as a bg */
+
+ul.nav.nav-tabs.nav-justified{
+  text-justify:initial;
+  font-size:15px;
+}
+
 body{
   background:url(../../assets/img/Clouds-008-HQ-01.jpg);
   background-size:cover;
   background-repeat:no-repeat;
   background-position:right top;
   background-attachment:fixed;
-}
+}/* fixing the BG */
 
 div#start.container{
   background-image:url(../../assets/img/master51_image028.png);
@@ -30,25 +69,17 @@ div#FAMILY.container{
 
 .container, .container-fluid{
   width:960px;
-}
-
-div{
-  direction:rtl;
-}
+}/* forcing 960px grid */
 
 div.media{
   border:5px solid #a28686;
 }
 
-div.push{
-}
 
 div#footerpush.push{
   height:30px;
 }
 
-div#firstfooterrow.row{
-}
 
 div#secondfooterrow.row{
   margin-left:146px;
@@ -78,7 +109,7 @@ ul.nav.navbar-nav.links{
 
 section#house{
   padding-top:4px;
-}
+}/* putting the house closer to the header */
 
 img#grandpa:hover{
   transform:rotate(-15deg);
@@ -111,16 +142,6 @@ span{
 div#footerpic.col-md-12{
   padding-top:5px;
   margin-left:100px;
-}
-
-div#straycatsinfo.media{
-}
-
-font-family: 'Arimo', sans-serif;html{
-}
-
-body{
-  font-family:'Arimo', sans-serif;
 }
 
 img#elad{
@@ -158,22 +179,8 @@ img#cat1:hover{
 
 img#cat2:hover{
   transform:scale(1.5, 1.5);
-}
+}/* sweet transforms on the cats */
 
-div#head{
-  background-image:url(../../assets/img/master47_image014.png);
-  background-repeat:no-repeat;
-  background-position:center;
-  width:960px;
-  margin:auto;
-  padding-top:190px;
-  height:280px;
-}
-
-ul.nav.nav-tabs.nav-justified{
-  text-justify:initial;
-  font-size:15px;
-}
 
 div#sitemap.col-md-6{
   text-decoration:none;
@@ -188,39 +195,26 @@ div#site-map.row a:link{
 
 div#site-map.row a:visited{
   color:white;
-}
+}/* making the links decoration unvisible */
+
+div#theteam.row{
+  border-color:rgb(162,134,134);
+  border-style:dashed;
+  border-radius:20px;
+}/* nice border in the team section */
 
 div#formb.col-md-6{
   border-color:rgb(63,150,219);
   border-style:outset;
   border-width:5px;
   border-radius:30px;
-}
-
-div#theteam.row{
-  border-color:rgb(162,134,134);
-  border-style:dashed;
-  border-radius:20px;
-}
+}/* even nicer border for the form :) */
 
 div#formb.col-md- + .col-md-offset-2{
 }
 
 div#hitlogo{
   margin-left:109px;
-}
-
-ul.nav.navbar-nav{
-  width:960px;
-  margin-left:121px;
-}
-
-h1#sitename.text-center.bg-primary{
-  font-size:50px;
-}
-
-nav.navbar.navbar-default.navbar-fixed-top{
-  font-size:17px;
 }
 
 div.push-20{
@@ -232,4 +226,3 @@ div#formb.col-md-8.col-md-offset-2{
   border-style:inset;
   border-radius:38px;
 }
-
