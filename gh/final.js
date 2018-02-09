@@ -3667,10 +3667,10 @@ p.nominalBounds = new cjs.Rectangle(-452,-470,895.7,842);
 		
 		function init() {
 			//לטעון את הסאונד - נתיב + שם
-			createjs.Sound.registerSound("/sounds/GoodSound.mp3", "Good");
-			createjs.Sound.registerSound("/sounds/back.mp3", "backmusic");
-			createjs.Sound.registerSound("/sounds/badGood.mp3", "LessGood");
-			createjs.Sound.registerSound("/sounds/maka.mp3", "maka");
+			createjs.Sound.registerSound("/WebDevelopmentCourse/gh/sounds/GoodSound.mp3", "Good");
+			createjs.Sound.registerSound("/WebDevelopmentCourse/gh/sounds/back.mp3", "backmusic");
+			createjs.Sound.registerSound("/WebDevelopmentCourse/gh/sounds/badGood.mp3", "LessGood");
+			createjs.Sound.registerSound("/WebDevelopmentCourse/gh/sounds/maka.mp3", "maka");
 		
 		}
 		
