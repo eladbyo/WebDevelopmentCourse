@@ -3657,9 +3657,9 @@ p.nominalBounds = new cjs.Rectangle(-452,-470,895.7,842);
 		
 		function init() {
 			//לטעון את הסאונד - נתיב + שם
-			createjs.Sound.registerSound({id:"Good", src:"/sounds/GoodSound.mp3"});
-			createjs.Sound.registerSound({id:"backmusic", src:"/sounds/back.mp3"});
-			createjs.Sound.registerSound({id:"LessGood", src:"/sounds/badgood.mp3"});
+			createjs.Sound.registerSound("/finalgame/sounds/GoodSound.mp3", "Good");
+			createjs.Sound.registerSound("/finalgame/sounds/back.mp3", "backmusic");
+			createjs.Sound.registerSound("/finalgame/sounds/badGood.mp3", "LessGood");
 		
 		}
 		
