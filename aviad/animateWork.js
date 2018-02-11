@@ -4887,8 +4887,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,960,700);
 		
 		function sounds() {
 			//לטעון את הסאונד - נתיב + שם
-			createjs.Sound.registerSound("/sounds/GoodSound.mp3", "correct");
-			createjs.Sound.registerSound("/sounds/badSound.mp3", "LessGood");
+			createjs.Sound.registerSound("/WebDevelopmentCourse/aviad/sounds/GoodSound.mp3", "correct");
+			createjs.Sound.registerSound("/WebDevelopmentCourse/aviad/sounds/badSound.mp3", "LessGood");
 		}
 		
 		var games = [
