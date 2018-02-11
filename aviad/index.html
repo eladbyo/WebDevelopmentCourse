@@ -1,0 +1,122 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>שם המשחק</title>
+    <meta name="description" content="name of game" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="names" />
+
+
+
+
+    <!-- CSS -->
+    <!--Bootstrap 3 css file-->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <!--Bootstrap non-responsive css file (just add class "non-responsive" to the body tag)-->
+    <link href="bootstrap/css/bootstrap-non-responsive.css" rel="stylesheet" />
+    <!--Bootstrap fixes for hebrew (add class='rtl' to the body tag)-->
+    <link href="bootstrap/css/bootstrap-rtl.css" rel="stylesheet" />
+    <!--Bootstrap them - for changing the shape and colors of bootstrap objects like buttons-->
+    <!--<link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet" />-->
+    <!--The only file you should right your css-->
+    <link href="styles/StyleSheet.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Assistant:400,700&amp;subset=hebrew" rel="stylesheet">
+
+    <!-- Scripts -->
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <!--Bootstrap library-->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body class="rtl">
+  <!-- תפריט ניווט עליון -->
+	<nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">תופסים דגים</a> <!--אפשר להוסיף תמונה ליד השם דרך ה-CSS-->
+        </div>
+        
+		<div id="navbar" class="collapse navbar-collapse pull-left">
+          <ul class="nav navbar-nav">
+			<li><a href="#" data-toggle="modal" data-target="#howToPlay">איך משחקים?</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#about">אודות</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	<!-- סוף תפריט ניווט עליון -->
+
+	
+		<div class="container">
+
+			<iframe src="animateWork.html"></iframe>
+
+		</div>
+	
+	
+
+	<!-- חלון אודות -->
+	<div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title">תופסים דגים</h4>
+		  </div>
+		  <div class="modal-body">
+		  
+			<p>אפיון ופיתוח: אביעד נחמן ושאנל שני.</p>
+                    <p>
+                        פותח במסגרת פרויקט בקורסים:
+                        <br />
+                        סביבות לימוד אינטראקטיביות 1 & אנימציה- תכנון ויישום, תשע''ח 
+                        
+                    </p>
+                   
+                    <p class="dialogWindowText">
+                        <a href="http://www.hit.ac.il/telem/overview">הפקולטה לטכנולוגיות למידה</a><br />
+                        מכון טכנולוגי חולון
+                    </p>
+		  </div>
+		  
+		</div>
+	  </div>
+	</div>
+	<!-- סוף חלון אודות -->
+	
+	
+	<!-- חלון איך משחקים -->
+	<div class="modal fade" id="howToPlay" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title">איך משחקים?</h4>
+		  </div>
+		  <div class="modal-body">
+		  
+			<p>
+			<!-- כאן יפורט איך משחקים במשחק -->
+			<!-- אפשר להוסיף עוד תגים מאיזה סוג שבא לכן -->
+			
+			</p>
+		  </div>
+		  
+		</div>
+	  </div>
+	</div>
+	<!-- סוף חלון איך משחקים -->
+</body>
+
+</html>
